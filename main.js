@@ -1,13 +1,13 @@
-// Create a variable named "bestClub":
-const bestClub = "Your Club";
+import { sum } from "./function.js";
 
-// Create a function named "multiply":
-function multiply(x, y) {
-  return x * y;
+const sumar = sum(1,4);
+const name = 'John';
+
+function sayHello(name) {
+    console.log('Hello ' + name);
 }
 
-// Create an array named "fruits":
-const fruits = ["Mango", "Apple", "Orange", "Lemon"];
+console.log("esto es una suma ", sumar);
+console.log('Hello World');
 
-// Export the three statements above:
-export { bestClub, multiply, fruits };
+export { name, sayHello }
